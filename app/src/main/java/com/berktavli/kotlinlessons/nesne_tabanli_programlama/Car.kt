@@ -2,6 +2,10 @@ package com.berktavli.kotlinlessons.nesne_tabanli_programlama
 
 class Car( var color : String, var speed : Int, var isActive : Boolean) {
 
+    init { //
+        println("**********Primer Constructor is work**********")
+    }
+
     fun info (){
         println("Rengi : ${this.color} \nHız : ${this.speed} \nÇalısıyor mu ? : ${this.isActive} ")
     }
