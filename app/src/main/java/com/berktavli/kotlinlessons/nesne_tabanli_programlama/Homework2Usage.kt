@@ -26,6 +26,5 @@ fun main() {
     println("******* 7.Sorunun Cevabı *******")
     val otoparkUcret = f.soru7(5)
     println("Otopark Ücreti : $otoparkUcret")
-
 }
 
